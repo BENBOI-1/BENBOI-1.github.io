@@ -1,184 +1,443 @@
 <html>
+
 <head>
+
     <meta charset="utf-8" />
+
     <link rel="icon" type="image/x-icon" href="PIRACY.png">
+
     <title>Piracy</title>
+
     <link href="css/application-werk.css" rel="stylesheet">
+
+<!-- please label whatever the hell all of this random stuff is, someone-->
+
     <style>
+
         #aside {
+
             width: 10%;
+
             padding-left: 15px;
+
             margin-left: 15px;
+
             padding-bottom: 35%;
+
             float: right;
+
             color: red;
+
             background: black;
+
             padding-block: auto;
+
             background-color: black;
-            /*this is a test*/
+
         }
+
+ 
 
         #header {
+
             background-color: black;
+
             position: fixed;
-            padding: 10px;
+
+            padding: 9.8px;
+
             padding-right: 100%;
+
         }
+
+ 
 
         #nav {
+
             line-height: 30px;
+
             background-color: #eeeeee;
+
             height: 100px;
+
             width: 300px;
+
             float: left;
+
             padding: 5px;
+
         }
+
+ 
 
         #section {
+
             width: 350px;
+
             float: left;
+
             padding: 10px;
+
         }
+
+ 
 
         #footer {
+
             background-color: black;
+
             color: white;
+
             clear: both;
+
             text-align: center;
+
             padding: 5px;
+
         }
+
+ 
 
         body {
+
             margin: 0;
+
             font-family: "Lato", sans-serif;
+
         }
+
+ 
 
         .sidebar {
+
             margin: 0;
+
             padding: 0;
+
             width: 100%;
-            background-color: #f1f1f1;
+
+            background-color: #b3e2ff;
+
             position: fixed;
-            left: 8%;
+
+            left: 7.8%;
+
             height: auto;
+
             overflow: auto;
+
             margin-top: 0px;
+
         }
+
+ 
 
         .sidebar a {
+
                 display: block;
+
                 color: black;
+
                 padding: 10px;
+
                 text-decoration: none;
+
                 float: left;}
 
+ 
+
                 .sidebar a.active {
-                    background-color: #04AA6D;
+
+                    background-color: #0273b9;
+
                     color: white;
+
                 }
+
+ 
 
                 .sidebar a:hover:not(.active) {
-                    background-color: #555;
+
+                    background-color: #0273b9;
+
                     color: white;
+
                 }
 
+ 
+
         div.content {
+
             margin-left: 180px;
+
             padding: 1px 16px;
+
             height: 100px;
+
         }
+
+ 
 
         back {
+
             background: #555;
+
             height: 40px;
+
         }
+
+ 
 
         .cat {
+
             height: 24%;
+
             width: 99%;
+
             position: fixed;
+
             transform: translate(0px, -60px);
+
         }
 
+ 
+
         .egg
+
         a:link {
-            color: green;
+
+            color: #005e98;
+
             background-color: fuchsia;
+
             text-decoration: none;
+
         }
 
+ 
+
         .egg
+
         a:visited {
+
             color: cyan;
+
             background-color: transparent;
+
             text-decoration: none;
+
         }
 
+ 
+
         .egg
+
         a:hover {
+
             color: skyblue;
+
             background-color: transparent;
+
             text-decoration: solid;
+
         }
 
+ 
+
         .egg
+
         a:active {
+
             color: yellow;
+
             background-color: transparent;
+
             text-decoration: solid;
+
         }
+
+ 
 
         th, td {
+
             background-color: white;
+
             border: 4px solid black;
+
             padding: 15px;
+
             border-style: ridge;
-        }
-    </style>
-    <style>
-        a.one:link, a:visited {
-            background-color: #f44336;
-            color: white;
-            padding: 15px 25px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
+
         }
 
-        a.one:hover, a:active {
-            background-color: red;
-        }
     </style>
+
+ 
+
+    <style>
+
+        a.one:link, a:visited {
+
+            background-color: #f44336;
+
+            color: blue;
+
+            padding: 15px 25px;
+
+            text-align: center;
+
+            text-decoration: none;
+
+            display: inline-block;
+
+        }
+
+ 
+
+        a.one:hover, a:active {
+
+            background-color: red;
+
+        }
+
+    </style>
+
 </head>
+
+ 
+
+<!-- N O T I C E
+
+ 
+
+ pls label all of the code like i have done with some of it
+
+ (and update the labels on existing ones)
+
+ so that everyone knows whats actually going on
+
+ 
+
+ Also, can we go for an ocean themed website?
+
+ i think it would look pretty neat with lots of blue colours
+
+ 
+
+ Pls leave anything you think should be here, here.
+
+  -->
+
+ 
+
+<!-- pirate text colour changing-->
+
 <body style="background-color:lightgray;">
+
     <div id="header">
+
         <main class="flex">
+
             <section id="cat-bounce">
-                <span id="makeItRain" class="btn italic">
+
+                <span id="makeItRain" class="btn italic" style="font-size:16.8px;">
+
                     <b><span class="txt anim-text-flow-hover"><span>P</span><span>I</span><span>R</span><span>A</span><span>T</span><span>E</span><span>S</span><span>!</span></span></b>
+
                 </span>
+
             </section>
+
         </main>
+
     </div>
+
+ 
+
+<!-- top bar with links-->
+
     <div class="sidebar">
-        <a class="active" href="buttons.html"> Home</a>
-        <a href="#news"> News</a>
-        <a href="about.html"> About</a>
+
+        <a class="active" href="index.html"> Home</a>
+
+        <a href="#piracy1">Piracy1</a>
+
+        <a id="" href="#piracy2">Piracy2</a>
+
     </div>
-    <p style="margin: 0; padding: 20%; background-color: #f1f1f1; position: fixed; left: 92%; height: 500px; margin-top: 38.5px;"></p>
-    <p style="margin: 0; padding: 20%; background-color: #f1f1f1; position: fixed; right: 92%; height: 500px; margin-top: 38.5px;"></p>
-    <div class="content" id="home">
+
+ 
+
+<!--left bar (blue) and image of ben-->
+
+    <header style="background-color: #0273b9; position: fixed; margin-top: 38.5px; height: 100%; width: 100px;">
+
+        <img src="PIRACY(square).png" style="width: 100px; height: 110px; position: fixed; margin-top: 0%;">
+
+    </header>
+
+   
+
+ 
+
+    <div class="content">
+
+        <a id="Piracyl"></a>
+
+       
+
+           <p style="margin-top:100px"> Digital Piracy refers to the unauthorized duplication
+
+            of copyrighted content that is sold at lower prices in the ‘grey’ market.
+
+            Piracy has become more rampant because of the easy access of technology.
+
+            Piracy also refers to the distribution and use of copyrighted materials,
+
+            so, even if someone does not take part in the duplication process of piracy,
+
+            simply distributing it or using it is a crime which may result in legal penalties.</p>
+
+            <br />
+
+            <br />
+
+        <br />
+
+        <!--image with link under it (idk what this is gonna be)-->
+
+            <table>
+
+                <tr>
+
+                    <td style="text-align:center"><a href="Piracy"> <img src="PIRACY(square).png" style="width: 100px; height: 110px;"></a>
+
+                        <p id="piracy2"><a href="#Piracyl">pirate</a></p></td>
+
+                </tr>
+
+            </table>
+
+           
+
+       
+
+ 
+
     </div>
-    <div class="cat"><img src="PIRACY(square).png" style="width: 100px; height: 110px; position: fixed; "></div>
-    <div class="content"> <b id="pain1">Digital Piracy refers to the unauthorized duplication of copyrighted content that is sold at lower prices in the ‘grey’ market. 
-        Piracy has become more rampant because of the easy access of technology. Piracy also refers to the distribution and use of copyrighted materials, so, even if 
-        someone does not take part in the duplication process of piracy, simply distributing it or using it is a crime which may result in legal penalties.
-Laws have been created to try to prevent piracy and protect copyrighted works and their privacy. Despite this, the laws on piracy depend on the country: more developed 
-countries have strict laws for piracy, meanwhile countries with more pressing matters do not give piracy the attention it needs. The IT and music industries are the most active 
-industries involved in preventing piracy. With the help of the police, raids on organizations that pirate are conducted. Despite this, penalties are not harsh enough to eliminate the issue at all.</b>  </div>
+
+<!--    
+
     <script>
+
         document.getElementById("demo").innerHTML =
+
             Math.floor(Math.random() * 10000);
+
     </script>
+
+-->
+
 </body>
+
 </html>
